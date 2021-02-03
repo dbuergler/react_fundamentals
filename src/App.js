@@ -1,20 +1,12 @@
 import './App.css';
-import Header from './components/Header'
-import Aboutme from './components/challenges/day 01/Aboutme'
-import Home from './components/Home'
-import Footer from './components/Footer'
+import Auth from './components/challenges/day 03/Auth/Auth';
 
 
-function App() { // this is a root component
-                //  parent function
-  const name = 'Daniel' // JS above return statement can be injected into JSX using {}
+function App() { 
 
   return (
-    <div className= "App">
-      <Header /> {/* this is how you mount a component */}
-      <Aboutme/> {/* child function */}
-      <Home />
-      <Footer />
+    <div>
+      <Auth/>
     </div>
   );
 }
